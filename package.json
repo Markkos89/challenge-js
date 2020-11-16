@@ -1,5 +1,5 @@
 {
-  "name": "challenge",
+  "name": "challenge-js",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -30,21 +30,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "description": "This is the challenge for unixono",
-  "main": "index.js",
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Markkos89/challenge-js.git"
-  },
-  "keywords": [
-    "challenge"
-  ],
-  "author": "Marcos Iglesias",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Markkos89/challenge-js/issues"
-  },
-  "homepage": "https://github.com/Markkos89/challenge-js#readme"
+  }
 }

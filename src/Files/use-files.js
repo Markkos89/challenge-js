@@ -7,7 +7,7 @@ export function useFiles() {
   useEffect(() => {
     getFiles()
       .then(files => setFiles(files));
-  }, []);
+  }, [files]);
 
   return files;
 }
