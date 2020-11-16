@@ -35,4 +35,5 @@ export async function addVersion(fileId, name) {
   const file = files.find(f => f.id === fileId);
   const versionId = file.versions[file.versions.length - 1].id + 1;
   file.versions.push({ id: versionId, name });
+  file.versions.reverse();
 }
